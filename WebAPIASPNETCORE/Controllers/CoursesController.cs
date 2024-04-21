@@ -187,7 +187,7 @@ namespace WebAPIASPNETCORE.Controllers
 
             return Ok(savedCourses);
         }
-
+        //funkar inte
         [HttpPost("save/{courseId}")]
         public async Task<IActionResult> SaveCourse(int courseId)
         {
